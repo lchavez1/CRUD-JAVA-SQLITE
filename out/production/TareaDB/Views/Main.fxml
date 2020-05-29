@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="btn" prefHeight="267.0" prefWidth="453.0" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Button fx:id="btn_insert" layoutX="65.0" layoutY="90.0" mnemonicParsing="false" onAction="#btn_insert" styleClass="btn" stylesheets="@../styles.css" text="Insertar" textAlignment="CENTER">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_print" layoutX="243.0" layoutY="172.0" mnemonicParsing="false" onAction="#btn_print" styleClass="btn" stylesheets="@../styles.css" text="Mostrar" textAlignment="CENTER">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_delete" layoutX="64.0" layoutY="172.0" mnemonicParsing="false" onAction="#btn_delete" styleClass="btn" stylesheets="@../styles.css" text="Eliminar" textAlignment="CENTER">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_edit" layoutX="255.0" layoutY="90.0" mnemonicParsing="false" onAction="#btn_edit" styleClass="btn" stylesheets="@../styles.css" text="Editar" textAlignment="CENTER">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="31.0" />
+         </font>
+      </Button>
+      <Label layoutX="193.0" layoutY="26.0" text="MENU " textFill="#1f2abf">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="666.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Edit">
+   <children>
+      <Button fx:id="btn_edit_customer" layoutX="574.0" layoutY="146.0" mnemonicParsing="false" onAction="#btn_edit_customer" text="Editar" />
+      <Button fx:id="btn_edit_basic" layoutX="262.0" layoutY="569.0" mnemonicParsing="false" onAction="#btn_edit_basic" text="Editar" />
+      <Button fx:id="btn_edit_movie" layoutX="262.0" layoutY="468.0" mnemonicParsing="false" onAction="#btn_edit_movie" text="Editar" />
+      <Button fx:id="btn_edit_music" layoutX="259.0" layoutY="345.0" mnemonicParsing="false" onAction="#btn_edit_music" text="Editar" />
+      <Button fx:id="btn_edit_electronic" layoutX="257.0" layoutY="220.0" mnemonicParsing="false" onAction="#btn_edit_electronic" text="Editar" />
+      <Accordion layoutX="424.0" layoutY="361.0" />
+      <Label layoutX="456.0" layoutY="80.0" text="Cliente" textFill="#1f2abf" />
+      <TextField fx:id="field_name_customer" layoutX="411.0" layoutY="97.0" />
+      <TextField fx:id="field_email" layoutX="411.0" layoutY="122.0" />
+      <TextField fx:id="field_password" layoutX="411.0" layoutY="146.0" />
+      <Label layoutX="345.0" layoutY="101.0" text="nombre:" />
+      <Label layoutX="345.0" layoutY="126.0" text="correo:" />
+      <Label layoutX="345.0" layoutY="150.0" text="contraseña:" />
+      <Label layoutX="135.0" layoutY="178.0" text="Electronico" textFill="#1f2abf" />
+      <Label layoutX="144.0" layoutY="377.0" text="Pelicula" textFill="#1f2abf" />
+      <Label layoutX="146.0" layoutY="254.0" text="Musica" textFill="#1f2abf" />
+      <Label layoutX="148.0" layoutY="504.0" text="Basico" textFill="#1f2abf" />
+      <Label layoutX="24.0" layoutY="573.0" text="contenido:" />
+      <Label layoutX="24.0" layoutY="549.0" text="marca:" />
+      <Label layoutX="24.0" layoutY="524.0" text="tipo:" />
+      <Label layoutX="24.0" layoutY="472.0" text="actores:" />
+      <Label layoutX="24.0" layoutY="447.0" text="formato:" />
+      <Label layoutX="24.0" layoutY="423.0" text="año:" />
+      <Label layoutX="24.0" layoutY="398.0" text="región:" />
+      <Label layoutX="24.0" layoutY="349.0" text="artista:" />
+      <Label layoutX="24.0" layoutY="324.0" text="track list:" />
+      <Label layoutX="24.0" layoutY="300.0" text="formato:" />
+      <Label layoutX="24.0" layoutY="275.0" text="año:" />
+      <Label layoutX="24.0" layoutY="224.0" text="garantia:" />
+      <Label layoutX="24.0" layoutY="199.0" text="descripción:" />
+      <Label layoutX="24.0" layoutY="149.0" text="precio:" />
+      <Label layoutX="24.0" layoutY="125.0" text="nombre:" />
+      <Label layoutX="24.0" layoutY="100.0" text="sku:" />
+      <TextField fx:id="field_content" disable="true" layoutX="90.0" layoutY="569.0" />
+      <TextField fx:id="field_brand" disable="true" layoutX="90.0" layoutY="545.0" />
+      <TextField fx:id="field_type" disable="true" layoutX="90.0" layoutY="520.0" />
+      <TextField fx:id="field_format_movie" disable="true" layoutX="90.0" layoutY="443.0" />
+      <TextField fx:id="field_year_movie" disable="true" layoutX="90.0" layoutY="419.0" />
+      <TextField fx:id="field_region" disable="true" layoutX="90.0" layoutY="394.0" />
+      <TextField fx:id="field_actors" disable="true" layoutX="90.0" layoutY="468.0" />
+      <TextField fx:id="field_artist" disable="true" layoutX="90.0" layoutY="345.0" />
+      <TextField fx:id="field_year_music" disable="true" layoutX="90.0" layoutY="271.0" />
+      <TextField fx:id="field_format_music" disable="true" layoutX="90.0" layoutY="296.0" />
+      <TextField fx:id="field_track_list" disable="true" layoutX="90.0" layoutY="320.0" />
+      <TextField fx:id="field_assurance" disable="true" layoutX="90.0" layoutY="220.0" />
+      <TextField fx:id="field_description" disable="true" layoutX="90.0" layoutY="195.0" />
+      <TextField fx:id="field_price" layoutX="90.0" layoutY="145.0" />
+      <TextField fx:id="field_name_product" layoutX="90.0" layoutY="121.0" />
+      <TextField fx:id="field_sku" layoutX="90.0" layoutY="96.0" />
+      <Button fx:id="btn_search" layoutX="261.0" layoutY="97.0" mnemonicParsing="false" onAction="#btn_search" text="Buscar" />
+      <Label layoutX="244.0" layoutY="33.0" text="MENU EDIT" textFill="#1f2abf">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

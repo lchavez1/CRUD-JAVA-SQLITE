@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="682.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Print">
+   <children>
+      <Button fx:id="btn_search_product" layoutX="271.0" layoutY="172.0" mnemonicParsing="false" onAction="#btn_search_product" text="Buscar" />
+      <CheckBox fx:id="check_product" layoutX="68.0" layoutY="49.0" mnemonicParsing="false" onAction="#checked_product" text="Producto">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="check_customer" layoutX="177.0" layoutY="49.0" mnemonicParsing="false" onAction="#checked_customer" text="Cliente">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="check_sells" layoutX="261.0" layoutY="49.0" mnemonicParsing="false" onAction="#checked_sells" text="Ventas">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="field_sku" disable="true" layoutX="100.0" layoutY="171.0" />
+      <TextField fx:id="field_name_product" disable="true" layoutX="100.0" layoutY="196.0" />
+      <TextField fx:id="field_price" disable="true" layoutX="100.0" layoutY="220.0" />
+      <TextField fx:id="field_description" disable="true" layoutX="100.0" layoutY="270.0" />
+      <TextField fx:id="field_assurance" disable="true" layoutX="100.0" layoutY="295.0" />
+      <TextField fx:id="field_track_list" disable="true" layoutX="100.0" layoutY="395.0" />
+      <TextField fx:id="field_format_music" disable="true" layoutX="100.0" layoutY="371.0" />
+      <TextField fx:id="field_year_music" disable="true" layoutX="100.0" layoutY="346.0" />
+      <TextField fx:id="field_artist" disable="true" layoutX="100.0" layoutY="420.0" />
+      <TextField fx:id="field_actors" disable="true" layoutX="100.0" layoutY="543.0" />
+      <TextField fx:id="field_region" disable="true" layoutX="100.0" layoutY="469.0" />
+      <TextField fx:id="field_year_movie" disable="true" layoutX="100.0" layoutY="494.0" />
+      <TextField fx:id="field_format_movie" disable="true" layoutX="100.0" layoutY="518.0" />
+      <TextField fx:id="field_type" disable="true" layoutX="100.0" layoutY="595.0" />
+      <TextField fx:id="field_brand" disable="true" layoutX="100.0" layoutY="620.0" />
+      <TextField fx:id="field_content" disable="true" layoutX="100.0" layoutY="644.0" />
+      <Label layoutX="34.0" layoutY="175.0" text="sku:" />
+      <Label layoutX="34.0" layoutY="200.0" text="nombre:" />
+      <Label layoutX="34.0" layoutY="224.0" text="precio:" />
+      <Label layoutX="34.0" layoutY="274.0" text="descripción:" />
+      <Label layoutX="34.0" layoutY="299.0" text="garantia:" />
+      <Label layoutX="34.0" layoutY="350.0" text="año:" />
+      <Label layoutX="34.0" layoutY="375.0" text="formato:" />
+      <Label layoutX="34.0" layoutY="399.0" text="track list:" />
+      <Label layoutX="34.0" layoutY="424.0" text="artista:" />
+      <Label layoutX="34.0" layoutY="473.0" text="región:" />
+      <Label layoutX="34.0" layoutY="498.0" text="año:" />
+      <Label layoutX="34.0" layoutY="522.0" text="formato:" />
+      <Label layoutX="34.0" layoutY="547.0" text="actores:" />
+      <Label layoutX="34.0" layoutY="599.0" text="tipo:" />
+      <Label layoutX="34.0" layoutY="624.0" text="marca:" />
+      <Label layoutX="34.0" layoutY="648.0" text="contenido:" />
+      <Label layoutX="158.0" layoutY="579.0" text="Basico" textFill="#1f2abf" />
+      <Label layoutX="156.0" layoutY="329.0" text="Musica" textFill="#1f2abf" />
+      <Label layoutX="154.0" layoutY="452.0" text="Pelicula" textFill="#1f2abf" />
+      <Label layoutX="145.0" layoutY="253.0" text="Electronico" textFill="#1f2abf" />
+      <Label layoutX="355.0" layoutY="225.0" text="contraseña:" />
+      <Label layoutX="359.0" layoutY="176.0" text="correo:" />
+      <Label layoutX="359.0" layoutY="200.0" text="nombre:" />
+      <TextField fx:id="field_password" disable="true" layoutX="425.0" layoutY="221.0" />
+      <TextField fx:id="field_email" disable="true" layoutX="425.0" layoutY="172.0" />
+      <TextField fx:id="field_name_customer" disable="true" layoutX="425.0" layoutY="196.0" />
+      <Label layoutX="466.0" layoutY="155.0" text="Cliente" textFill="#1f2abf" />
+      <Label layoutX="481.0" layoutY="271.0" text="Ventas" textFill="#1f2abf" />
+      <Label layoutX="359.0" layoutY="342.0" text="fecha:" />
+      <Label layoutX="359.0" layoutY="293.0" text="cliente:" />
+      <TextField fx:id="field_customer_sell" disable="true" layoutX="425.0" layoutY="289.0" />
+      <TextField fx:id="field_date" disable="true" layoutX="425.0" layoutY="338.0" />
+      <Accordion layoutX="434.0" layoutY="436.0" />
+      <Button fx:id="btn_search_customer" layoutX="580.0" layoutY="172.0" mnemonicParsing="false" onAction="#btn_search_customer" text="Buscar" />
+      <TextField fx:id="field_product_sell" disable="true" layoutX="425.0" layoutY="314.0" />
+      <Label layoutX="359.0" layoutY="318.0" text="producto:" />
+      <Button fx:id="btn_search_sell" layoutX="474.0" layoutY="371.0" mnemonicParsing="false" onAction="#btn_search_sell" text="Cargar" />
+      <Label layoutX="378.0" layoutY="36.0" text="MENU PRINT" textFill="#1f2abf">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="425.0" layoutY="371.0" mnemonicParsing="false" onAction="#btn_left" text="&lt;" />
+      <Button layoutX="549.0" layoutY="371.0" mnemonicParsing="false" onAction="#btn_right" text="&gt;" />
+   </children>
+</AnchorPane>
