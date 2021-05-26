@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="TareaDB:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/TareaDB_jar</output-path>
-    <root id="archive" name="TareaDB.jar">
-      <element id="module-output" name="TareaDB" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.27.2/sqlite-jdbc-3.27.2.jar" path-in-jar="/" />
-    </root>
-  </artifact>
-</component>
